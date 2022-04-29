@@ -8,63 +8,22 @@ from word_segmentation import checkout
 
 import os
 from os import listdir, path
-import math
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
 
 from pathlib import Path
-from collections import Counter
 
-import pickle
-import nltk
 from pathlib import Path
-from collections import Counter
 from PIL import Image
 
-from fpdf import FPDF
-
-from tqdm.notebook import tqdm
-from sklearn.model_selection import train_test_split
-# os.system('pip install -U git+https://github.com/albumentations-team/albumentations')
 
 import tensorflow as tf
-# tf.enable_eager_execution()
 from tensorflow import keras
 from tensorflow.keras import layers
 from keras.utils.vis_utils import plot_model
 
-from keras.preprocessing.image import ImageDataGenerator
-import albumentations as albu
 from tensorflow.keras.applications import *
 
 tf.__version__
-
-# import urllib.request
-
-# # from pythonRLSA import rlsa
-# import tensorflow as tf
-# from tensorflow import keras
-# from tensorflow.keras import layers
-# import numpy as np
-
-# import os
-# from os import listdir, path
-
-
-# from sklearn.model_selection import train_test_split
-
-# import tensorflow as tf
-# # tf.enable_eager_execution()
-# from tensorflow import keras
-# from tensorflow.keras import layers
-# from keras.utils.vis_utils import plot_model
-
-# from keras.preprocessing.image import ImageDataGenerator
-# import albumentations as albu
-# from tensorflow.keras.applications import *
-
-# tf.__version__
 
 app = Flask(__name__)
 
